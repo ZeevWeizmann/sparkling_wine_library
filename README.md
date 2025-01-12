@@ -15,7 +15,7 @@ The Sparkling Wine Recommendation Project is an interactive Python application d
 
 ## Modules
 
-### 1. sparkling_wine_classes.py
+### 1. [sparkling_wine_classes.py](https://github.com/ZeevWeizmann/sparkling_wine_library/blob/main/sparkling_wine_classes.py)
 
 This module defines the wine classes used in the project. Each wine type is represented as a class with attributes such as name, price, rating, and availability.
 
@@ -28,7 +28,7 @@ This module defines the wine classes used in the project. Each wine type is repr
   - `rating`: A numerical rating from 0 to 5.
   - `available`: Boolean indicating availability.
 
-### 2. sparkling_wine_list.py
+### 2. [sparkling_wine_list.py](https://github.com/ZeevWeizmann/sparkling_wine_library/blob/main/sparkling_wine_list.py)
 
 This module contains a predefined list of sparkling wines as objects of the wine classes defined in `sparkling_wine_classes.py`.
 
@@ -36,7 +36,7 @@ This module contains a predefined list of sparkling wines as objects of the wine
 
 - A comprehensive list of wines, each initialized with its respective attributes (`name`, `price`, `rating`, and `available`).
 
-### 3. sparkling_wine_library.py
+### 3. [sparkling_wine_library.py](https://github.com/ZeevWeizmann/sparkling_wine_library/blob/main/sparkling_wine_librarary.py)
 
 This is the core module of the project, containing functions for recommending wines based on user input.
 
@@ -49,7 +49,7 @@ This is the core module of the project, containing functions for recommending wi
 - **offer_another_suggestion**:
   - Allows users to request another recommendation without repeating previously suggested wines.
 
-### 4. test.py
+### 4. [test.py](https://github.com/ZeevWeizmann/sparkling_wine_library/blob/main/test.py)
 
 This module contains unit tests to validate the functionality of the project.
 
@@ -81,9 +81,9 @@ Run the application by executing the main script:
 
 Interact with the program by following the prompts to select a wine type and budget. The system will provide tailored recommendations.
 
-## Additional Notes
+## Project Page
 
-- The project gracefully handles invalid inputs, such as non-numeric or negative budget values.
-- Users are encouraged to explore multiple recommendations by responding positively to prompts for additional suggestions.
+Explore the project online:  
+[https://zeevweizmann.github.io/sparkling_wine_library/](https://zeevweizmann.github.io/sparkling_wine_library/)
 
-Enjoy discovering the perfect sparkling wine for any occasion!
+## Enjoy discovering the perfect sparkling wine for any occasion!
