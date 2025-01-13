@@ -1,6 +1,6 @@
 # Sparkling wine recommendation Library project
 
-## "A bottle of wine contains more philosophy than all the books in the world." — Louis Pasteur
+## "A bottle of wine contains more philosophy than all the books in the world." 😊🍷 — Louis Pasteur
 
 ## Author:
 

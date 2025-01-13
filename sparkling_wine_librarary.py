@@ -52,7 +52,7 @@ def offer_another_suggestion(wine_type, min_budget, max_budget, recommended_wine
                 print("No more recommendations available within this budget range.")
                 break
         elif repeat == 'no':
-            print("Enjoy your sparkling wine! Have a wonderful evening!")
+            print("Enjoy your sparkling wine! Have a wonderful evening! Ciao! 😊🍷")
             return True  
         else:
             print("Please respond with 'yes' or 'no'.")
@@ -73,7 +73,7 @@ def main(verbose=True):
 
                     if min_budget < 0 or max_budget < 0:
                         print("Budget values cannot be negative. Please try again.")
-                        continue  # Возврат к запросу бюджета
+                        continue 
 
                     if min_budget > max_budget:
                         print("The minimum budget cannot be greater than the maximum budget. Please try again.")
@@ -96,7 +96,7 @@ def main(verbose=True):
 
         repeat = input("\nContinue with more Sparkling wine magic? (yes/no): ").strip().lower()
         if repeat != 'yes':
-            print("Thank you! Have a wonderful day!")
+            print("Thank you! Ciao! 😊🍷")
             break
 
 
