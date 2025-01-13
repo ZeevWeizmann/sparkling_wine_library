@@ -56,12 +56,12 @@ This is the core module of the project, containing functions for recommending wi
 
 This module contains unit tests to validate the functionality of the project.
 
-#### Unit tests
+#### Unit Tests
 
 Run the unit tests to validate the functionality:  
 `python -m unittest test.py`
 
-#### Test descriptions
+#### Test Descriptions
 
 - **test_recommend_wine_with_valid_data**: Ensures that a wine is recommended when valid inputs are provided. Tests filtering by wine type and budget.
 - **test_recommend_wine_with_no_matching_type**: Verifies that the system correctly handles cases where no wine matches the specified type.
@@ -70,7 +70,7 @@ Run the unit tests to validate the functionality:
 - **test_recommend_wine_with_negative_budget**: Confirms that the function handles negative budget values gracefully and does not return a recommendation.
 - **test_recommend_wine_with_invalid_budget_type**: Verifies that the function handles non-numeric budget values correctly and does not attempt to process invalid inputs.
 
-## How it works
+## How It Works
 
 1. The user selects a wine type (e.g., Champagne, Prosecco, etc.).
 2. The user enters a minimum and maximum budget.
@@ -84,7 +84,7 @@ Run the application by executing the main script:
 
 Interact with the program by following the prompts to select a wine type and budget. The system will provide tailored recommendations.
 
-## Project page
+## Project Page
 
 Explore the project online:  
 [https://zeevweizmann.github.io/sparkling_wine_library/](https://zeevweizmann.github.io/sparkling_wine_library/)
