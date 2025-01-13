@@ -8,7 +8,7 @@
 Student, MSc Data Science and Artificial Intelligence
 Université Côte d'Azur, France
 
-## Data Source
+## Data source
 
 Carrefour France (carrefour.fr)
 
@@ -77,7 +77,7 @@ Run the unit tests to validate the functionality:
 3. The application recommends a wine based on the user's preferences.
 4. The user can request another recommendation or exit the application.
 
-### Example Usage
+### Example usage
 
 Run the application by executing the main script:  
 `python sparkling_wine_library.py`
