@@ -8,7 +8,7 @@
 Student, MSc Data Science and Artificial Intelligence
 Université Côte d'Azur, France
 
-## Data source
+## Data source:
 
 Carrefour France (carrefour.fr)
 
