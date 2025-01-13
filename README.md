@@ -2,7 +2,7 @@
 
 ## "A bottle of wine contains more philosophy than all the books in the world." 😊🍷 — Louis Pasteur
 
-## Author:
+## Author
 
 **Zeev Weizmann**  
 Student, MSc Data Science and Artificial Intelligence
