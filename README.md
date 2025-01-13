@@ -1,9 +1,12 @@
-# Sparkling Wine Recommendation Project
+# Sparkling wine recommendation Library project
 
-## Author
+## "A bottle of wine contains more philosophy than all the books in the world." — Louis Pasteur
+
+## Author:
 
 **Zeev Weizmann**  
-Student, University Cote d'Azur MS Data Science and AI
+Student, MSc Data Science and Artificial Intelligence
+Université Côte d'Azur, France
 
 ## Data Source
 
@@ -85,5 +88,3 @@ Interact with the program by following the prompts to select a wine type and bud
 
 Explore the project online:  
 [https://zeevweizmann.github.io/sparkling_wine_library/](https://zeevweizmann.github.io/sparkling_wine_library/)
-
-## Enjoy discovering the perfect sparkling wine for any occasion!

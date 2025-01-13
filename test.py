@@ -3,12 +3,10 @@ from sparkling_wine_librarary import recommend_wine_by_type_and_budget, sparklin
 
 class TestSparklingWineLibrary(unittest.TestCase):
     def setUp(self):
-        """Set up some sample data and variables for testing."""
         self.sample_wine = sparkling_wine  # Use the imported wine list for testing
         self.recommended_wines = []
 
     def test_recommend_wine_with_valid_data(self):
-        """Test recommending a wine with valid inputs."""
         wine_type = "Champagne"
         min_budget = 5.0
         max_budget = 20.0
@@ -18,7 +16,6 @@ class TestSparklingWineLibrary(unittest.TestCase):
         self.assertTrue(min_budget <= wine.price <= max_budget, "The wine price should fall within the budget range.")
 
     def test_recommend_wine_with_no_matching_type(self):
-        """Test recommending a wine with no matching type."""
         wine_type = "NonExistentType"
         min_budget = 5.0
         max_budget = 20.0
@@ -26,7 +23,6 @@ class TestSparklingWineLibrary(unittest.TestCase):
         self.assertIsNone(wine, "The function should return None when no wines of the specified type are found.")
 
     def test_recommend_wine_with_no_matching_budget(self):
-        """Test recommending a wine with no matching budget."""
         wine_type = "Champagne"
         min_budget = 2.0
         max_budget = 3.0
