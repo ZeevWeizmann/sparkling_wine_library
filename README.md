@@ -1,12 +1,19 @@
-# Sparkling wine recommendation Library project
+# Sparkling Wine Recommendation Library 🍾
 
-## "A bottle of wine contains more philosophy than all the books in the world." 😊🍷 — Louis Pasteur
+> _"A bottle of wine contains more philosophy than all the books in the world." 😊🍷 — Louis Pasteur_
 
-## Author
+## 📦 Clone the Repository
 
-**Zeev Weizmann**  
-Student, MSc Data Science and Artificial Intelligence
-Université Côte d'Azur, France
+You can clone this project using either SSH or HTTPS:
+
+```bash
+# SSH (for users with SSH keys configured)
+git clone git@github.com:ZeevWeizmann/sparkling_wine_library.git
+
+# HTTPS (for general use)
+git clone https://github.com/ZeevWeizmann/sparkling_wine_library.git
+
+```
 
 ## Data source:
 
@@ -58,7 +65,7 @@ This module contains unit tests to validate the functionality of the project.
 
 #### Unit tests
 
-Run the unit tests to validate the functionality:  
+Run the unit tests to validate the functionality:
 `python -m unittest test.py`
 
 #### Test descriptions
@@ -79,12 +86,12 @@ Run the unit tests to validate the functionality:
 
 ### Example usage
 
-Run the application by executing the main script:  
+Run the application by executing the main script:
 `python sparkling_wine_library.py`
 
 Interact with the program by following the prompts to select a wine type and budget. The system will provide tailored recommendations.
 
 ## Project page
 
-Explore the project online:  
+Explore the project online:
 [https://zeevweizmann.github.io/sparkling_wine_library/](https://zeevweizmann.github.io/sparkling_wine_library/)
